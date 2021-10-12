@@ -1,2 +1,44 @@
 
 /* css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-family: 'Crimson Text', serif;
+  font-size: 3rem;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.label {
+  background: #CEDFF2;
+  height: 15%;  /*how do I adjust the height so it changes fluidly? */
+  font-size: .85rem;
+  font-weight: bold;
+
+}
+.data{
+  background: #F6F6F6;
+  height: 75%;
+  font-size: .75rem;
+}
+
+h1 { font-size: 3rem;}
+h3 { font-size: 1rem;}
+
+/* sizes: m */
+@media (min-width: 768px) {
+  h1 { font-size: 4rem;}
+  h3 { font-size: .95rem;}
+}
+/* sizes: l, xl */
+@media (min-width: 992px) {
+  h1 { font-size: 4rem;}
+  h3 { font-size: 1rem;}
