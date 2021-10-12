@@ -10,9 +10,9 @@ body {
   font-size: 3rem;
 }
 
-/* .header {
+.header {
     background: #CEDFF2;
-} */
+}
 
 .logo {
   display: block;
@@ -23,7 +23,6 @@ body {
 
 .label {
   background: #CEDFF2;
-  height: 15%;  /*how do I adjust the height so it changes fluidly? */
   font-size: .85rem;
   font-weight: bold;
 
@@ -31,7 +30,7 @@ body {
 .data{
   background: #F6F6F6;
   height: 75%;
-  font-size: .75rem;
+  font-size: .70rem;
 }
 
 h1 { font-size: 2rem;}
