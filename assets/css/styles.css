@@ -10,11 +10,15 @@ body {
   font-size: 3rem;
 }
 
+/* .header {
+    background: #CEDFF2;
+} */
+
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 20%;
 }
 
 .label {
@@ -30,8 +34,8 @@ body {
   font-size: .75rem;
 }
 
-h1 { font-size: 3rem;}
-h3 { font-size: 1rem;}
+h1 { font-size: 2rem;}
+h3 { font-size: .5rem;}
 
 /* sizes: m */
 @media (min-width: 768px) {
